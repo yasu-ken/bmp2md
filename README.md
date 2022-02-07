@@ -1,3 +1,4 @@
+
 # BMP to MegaDrive Graphic Converter
 
 
@@ -47,10 +48,6 @@ Read the binary file from the assembler with ".incbin"
 If you use only a small amount of images, extract the required amount from the text output file.
 
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
   BMP File(Windows)
   (0,0)-(127,127) --->MeGaDrive (8x8dot == 1chip)
@@ -58,27 +55,27 @@ If you use only a small amount of images, extract the required amount from the t
                           Sprite 2x2chip x 64pattern
                           BackGround 16x16chip(256chip)
 
-*********************
++++++++++++++++++++++
  BMPFILE
-*********************
-  ************************
-  *         *            *
-  * 128x128 *            *
-  *         *            *
-  *         *            *
-  ***********            *
-  *                      *
-  *                      *
-  *                      *
-  *                      *
-  ************************
++++++++++++++++++++++
+  ++++++++++++++++++++++++
+  +         +            +
+  + 128x128 +            +
+  +         +            +
+  +         +            +
+  +++++++++++            +
+  +                      +
+  +                      +
+  +                      +
+  +                      +
+  ++++++++++++++++++++++++
   Upper left 128x128 dot without image is used.
   Only the first 16 colors are used.
 
 
-*********************
++++++++++++++++++++++
  Sprite
-*********************
++++++++++++++++++++++
    4x4TYPE (Vertical)
 
       4x4chip=1spr
@@ -112,9 +109,9 @@ If you use only a small amount of images, extract the required amount from the t
                           (128x128dot)
 
 
-*********************
++++++++++++++++++++++
  BG
-*********************
++++++++++++++++++++++
   (1chip 8x8dot)
   [00][01][02][03][04][05][06][07][08][09][0a][0b][0c][0d][0e][0f]
   [10][11][12][13][14][15][16][17][18][19][1a][1b][1c][1d][1e][1f]
@@ -134,9 +131,9 @@ If you use only a small amount of images, extract the required amount from the t
   [f0][f1][f2][f3][f4][f5][f6][f7][f8][f9][fa][fb][fc][fd][fe][ff]
                                                    (16x16chip)==(128x128dot)
 
-*********************
++++++++++++++++++++++
  MegaDrive(Genesis)
-*********************
++++++++++++++++++++++
 
    1Charactor(4 Bytes x 8Line = 32 Bytes)
                   (x 8dot = 4 Bytes )
@@ -180,4 +177,3 @@ License
 This software is released under the MIT License, see LICENSE.txt.
 
 (EOF)
-
