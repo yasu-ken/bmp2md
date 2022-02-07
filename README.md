@@ -22,9 +22,9 @@ USE: bmp2md -T? <????.bmp> <????.text (or) ????.bin >
     palettype is nonarchive-16color or 256color.
 
 -T GraphicType
-	-T0  Sprite4x4(Vertical arrangement) 4x4(16)patterns (=128x128dot)
-	-T1  Sprite2x2(Vertical arrangement) 8x8(64)patterns (=128x128dot)
-	-T2  BG(Horizontal arrangement) 16x16patterns(=128x128dot)
+    -T0  Sprite4x4(Vertical arrangement) 4x4(16)patterns (=128x128dot)
+    -T1  Sprite2x2(Vertical arrangement) 8x8(64)patterns (=128x128dot)
+    -T2  BG(Horizontal arrangement) 16x16patterns(=128x128dot)
 
 ?????.txt
 	Output Text filename.
@@ -33,11 +33,9 @@ USE: bmp2md -T? <????.bmp> <????.text (or) ????.bin >
 	Output Binary filename.
 
 
->bmp2md src.BMP -T0 src.BMP output.TXT
-
->bmp2md src.BMP -T1 output.BIN
-
->bmp2md src.BMP -T3 output.BIN
+bmp2md src.BMP -T0 src.BMP output.TXT
+bmp2md src.BMP -T1 output.BIN
+bmp2md src.BMP -T3 output.BIN
 
 
 
@@ -46,29 +44,3 @@ Hints
 Read the binary file from the assembler with ".incbin"
 
 If you use only a small amount of images, extract the required amount from the text output file.
-
-
-
-How to build bmp2md.c
-----------------------
-I use Borland C++ 5.5.
-
-compile.bat
->echo off
->set path="C:\borland\bcc55\Bin"
->BCC32.EXE bmp2md.cpp > error.txt
-
-I think it can be compiled with gcc.
-
-
-
-Changes
--------
-version 1.0   2022/2/2
-    first release.
-
-License
--------
-This software is released under the MIT License, see LICENSE.txt.
-
-(EOF)
