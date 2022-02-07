@@ -11,14 +11,12 @@ this is command line tool.
 Using the upper left 128x128 dot of the bmp image, output in the method used by Mega-dora.
 
 
+
 Command Line
 -------------
 
 USE: bmp2md -T? <????.bmp> <????.text (or) ????.bin >
 
-bmp2md src.BMP -T0 src.BMP output.TXT
-bmp2md src.BMP -T1 output.BIN
-bmp2md src.BMP -T3 output.BIN
 
 
 Hints
