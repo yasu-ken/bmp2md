@@ -18,19 +18,19 @@ Command Line
 USE: bmp2md -T? <????.bmp> <????.text (or) ????.bin >
 
 ?????.bmp
-    Source filename. Windows BMP Format.
-    palettype is nonarchive-16color or 256color.
+　　　Source filename. Windows BMP Format.
+　　　palettype is nonarchive-16color or 256color.
 
 -T GraphicType
-    -T0  Sprite4x4(Vertical arrangement) 4x4(16)patterns (=128x128dot)
-    -T1  Sprite2x2(Vertical arrangement) 8x8(64)patterns (=128x128dot)
-    -T2  BG(Horizontal arrangement) 16x16patterns(=128x128dot)
+ 　　-T0  Sprite4x4(Vertical arrangement) 4x4(16)patterns (=128x128dot)
+ 　　-T1  Sprite2x2(Vertical arrangement) 8x8(64)patterns (=128x128dot)
+ 　　-T2  BG(Horizontal arrangement) 16x16patterns(=128x128dot)
 
 ?????.txt
-	Output Text filename.
+　　　Output Text filename.
 
 ?????.bin
-	Output Binary filename.
+　　　Output Binary filename.
 
 
 bmp2md src.BMP -T0 src.BMP output.TXT
