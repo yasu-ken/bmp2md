@@ -47,9 +47,10 @@ Read the binary file from the assembler with ".incbin"
 If you use only a small amount of images, extract the required amount from the text output file.
 
 
-************************************************************
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-************************************************************
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
   BMP File(Windows)
   (0,0)-(127,127) --->MeGaDrive (8x8dot == 1chip)
